@@ -1,0 +1,32 @@
+{
+  "name": "grab-post",
+  "version": "1.0.0",
+  "description": "This app must grab posts on several facebook fan page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilwon/grab-post.git"
+  },
+  "keywords": [
+    "javascript",
+    "node.js"
+  ],
+  "author": "Pilwon Huh <wazotwtw@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pilwon/grab-post/issues"
+  },
+  "homepage": "https://github.com/pilwon/grab-post#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "express": "^4.14.0",
+    "fbgraph": "^1.3.0",
+    "mysql": "^2.12.0",
+    "node-cron": "^1.1.2",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.79.0"
+  }
+}

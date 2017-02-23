@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+        <script src="bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+        <script src="js/route.js"></script>
+    </head>
+    <body>
+        <div class="container" ng-controller="LineCtrl">
+            <div ng-repeat="(key, device) in devices">
+                <canvas id="line" class="chart chart-line" chart-data="device.data"
+                    chart-labels="device.labels" chart-series="series" chart-options="options"
+                    chart-dataset-override="datasetOverride" chart-click="onClick">
+                </canvas>
+            </div>
+        </div>
+    </body>
+</html>

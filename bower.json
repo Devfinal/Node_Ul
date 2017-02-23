@@ -1,0 +1,27 @@
+{
+  "name": "grab-post",
+  "description": "This app must grab posts on several facebook fan page.",
+  "main": "index.js",
+  "authors": [
+    "Pilwon Huh <wazotwtw@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "node.js"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.2",
+    "angular-chart.js": "^1.1.1",
+    "angular-route": "^1.6.2",
+    "angular-resource": "^1.6.2"
+  }
+}
